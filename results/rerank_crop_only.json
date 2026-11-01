@@ -1,0 +1,295 @@
+{
+  "scorer": "scorers/a3/c1_crop.pt",
+  "tuning": {
+    "alpha": 0.1,
+    "K": 20,
+    "val_success": 0.4072651065316102,
+    "grid": {
+      "alpha=0,K=1": 0.3880544882989871,
+      "alpha=0,K=5": 0.39818372336709745,
+      "alpha=0,K=10": 0.37722668529514497,
+      "alpha=0,K=20": 0.4002794271742927,
+      "alpha=0.1,K=1": 0.3880544882989871,
+      "alpha=0.1,K=5": 0.40132727907789034,
+      "alpha=0.1,K=10": 0.37932238910234023,
+      "alpha=0.1,K=20": 0.4072651065316102,
+      "alpha=0.2,K=1": 0.3880544882989871,
+      "alpha=0.2,K=5": 0.40132727907789034,
+      "alpha=0.2,K=10": 0.3800209570380719,
+      "alpha=0.2,K=20": 0.4069158225637443,
+      "alpha=0.3,K=1": 0.3880544882989871,
+      "alpha=0.3,K=5": 0.4020258470136221,
+      "alpha=0.3,K=10": 0.3807195249738037,
+      "alpha=0.3,K=20": 0.40656653859587844,
+      "alpha=0.4,K=1": 0.3880544882989871,
+      "alpha=0.4,K=5": 0.4016765630457562,
+      "alpha=0.4,K=10": 0.37932238910234023,
+      "alpha=0.4,K=20": 0.4072651065316102,
+      "alpha=0.5,K=1": 0.3880544882989871,
+      "alpha=0.5,K=5": 0.39993014320642684,
+      "alpha=0.5,K=10": 0.3754802654558156,
+      "alpha=0.5,K=20": 0.40516940272441493,
+      "alpha=0.6,K=1": 0.3880544882989871,
+      "alpha=0.6,K=5": 0.39643730352776807,
+      "alpha=0.6,K=10": 0.3737338456164862,
+      "alpha=0.6,K=20": 0.39993014320642684,
+      "alpha=0.7,K=1": 0.3880544882989871,
+      "alpha=0.7,K=5": 0.39643730352776807,
+      "alpha=0.7,K=10": 0.3726859937128886,
+      "alpha=0.7,K=20": 0.4020258470136221,
+      "alpha=0.8,K=1": 0.3880544882989871,
+      "alpha=0.8,K=5": 0.3978344393992316,
+      "alpha=0.8,K=10": 0.37443241355221796,
+      "alpha=0.8,K=20": 0.4030736989172197,
+      "alpha=0.9,K=1": 0.3880544882989871,
+      "alpha=0.9,K=5": 0.3946908836884387,
+      "alpha=0.9,K=10": 0.36849458609849806,
+      "alpha=0.9,K=20": 0.3978344393992316,
+      "alpha=1,K=1": 0.3880544882989871,
+      "alpha=1,K=5": 0.3880544882989871,
+      "alpha=1,K=10": 0.3880544882989871,
+      "alpha=1,K=20": 0.3880544882989871
+    }
+  },
+  "alpha": 0.1,
+  "seen_hybrid": {
+    "n": 1376,
+    "top1": {
+      "success": 0.42877906976744184,
+      "grounding_acc": 0.6002906976744186,
+      "errors": {
+        "no_candidate": 0,
+        "grounding": 488,
+        "geometry": 298,
+        "unknown_no_gt_mask": 0
+      }
+    },
+    "K=1": {
+      "oracle": 0.42877906976744184,
+      "reranked": {
+        "success": 0.42877906976744184,
+        "grounding_acc": 0.6002906976744186,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 488,
+          "geometry": 298,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.42877906976744184,
+        "grounding_acc": 0.6002906976744186,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 488,
+          "geometry": 298,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=5": {
+      "oracle": 0.6446220930232558,
+      "reranked": {
+        "success": 0.4265988372093023,
+        "grounding_acc": 0.5588662790697675,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 539,
+          "geometry": 250,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.4258720930232558,
+        "grounding_acc": 0.5537790697674418,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 545,
+          "geometry": 245,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=10": {
+      "oracle": 0.6475290697674418,
+      "reranked": {
+        "success": 0.407703488372093,
+        "grounding_acc": 0.5603197674418605,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 541,
+          "geometry": 274,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.4011627906976744,
+        "grounding_acc": 0.5486918604651163,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 557,
+          "geometry": 267,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=20": {
+      "oracle": 0.6824127906976745,
+      "reranked": {
+        "success": 0.41497093023255816,
+        "grounding_acc": 0.5617732558139535,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 541,
+          "geometry": 264,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.4120639534883721,
+        "grounding_acc": 0.5486918604651163,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 557,
+          "geometry": 252,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    }
+  },
+  "unseen_hybrid": {
+    "n": 601,
+    "top1": {
+      "success": 0.2545757071547421,
+      "grounding_acc": 0.4908485856905158,
+      "errors": {
+        "no_candidate": 0,
+        "grounding": 293,
+        "geometry": 155,
+        "unknown_no_gt_mask": 0
+      }
+    },
+    "K=1": {
+      "oracle": 0.2545757071547421,
+      "reranked": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.4908485856905158,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 293,
+          "geometry": 155,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.4908485856905158,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 293,
+          "geometry": 155,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=5": {
+      "oracle": 0.4209650582362729,
+      "reranked": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.4908485856905158,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 292,
+          "geometry": 156,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2529118136439268,
+        "grounding_acc": 0.4925124792013311,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 291,
+          "geometry": 158,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=10": {
+      "oracle": 0.43261231281198004,
+      "reranked": {
+        "success": 0.2529118136439268,
+        "grounding_acc": 0.4891846921797005,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 293,
+          "geometry": 156,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2579034941763727,
+        "grounding_acc": 0.4925124792013311,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 291,
+          "geometry": 155,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=20": {
+      "oracle": 0.4925124792013311,
+      "reranked": {
+        "success": 0.2562396006655574,
+        "grounding_acc": 0.4858569051580699,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 295,
+          "geometry": 152,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.259567387687188,
+        "grounding_acc": 0.4891846921797005,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 293,
+          "geometry": 152,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    }
+  },
+  "H": {
+    "top1": 0.31947310119302513,
+    "K=1": {
+      "reranked": 0.31947310119302513,
+      "scorer_only": 0.31947310119302513,
+      "oracle": 0.31947310119302513
+    },
+    "K=5": {
+      "reranked": 0.31886599859758746,
+      "scorer_only": 0.31735603148192354,
+      "oracle": 0.5093217886667839
+    },
+    "K=10": {
+      "reranked": 0.31217269221124155,
+      "scorer_only": 0.3139632168386443,
+      "oracle": 0.5186895956455688
+    },
+    "K=20": {
+      "reranked": 0.31683646354096295,
+      "scorer_only": 0.31850319486229417,
+      "oracle": 0.57211607239344
+    }
+  },
+  "main": {
+    "K": 20,
+    "alpha": 0.1,
+    "seen": 0.41497093023255816,
+    "unseen": 0.2562396006655574,
+    "H": 0.31683646354096295
+  }
+}

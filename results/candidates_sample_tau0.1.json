@@ -1,0 +1,295 @@
+{
+  "scorer": "scorers/a3/full.pt",
+  "tuning": {
+    "alpha": 0.0,
+    "K": 20,
+    "val_success": 0.4432413552217953,
+    "grid": {
+      "alpha=0,K=1": 0.3880544882989871,
+      "alpha=0,K=5": 0.4229828850855746,
+      "alpha=0,K=10": 0.4142507858889277,
+      "alpha=0,K=20": 0.4432413552217953,
+      "alpha=0.1,K=1": 0.3880544882989871,
+      "alpha=0.1,K=5": 0.42472930492490396,
+      "alpha=0.1,K=10": 0.4146000698567936,
+      "alpha=0.1,K=20": 0.4432413552217953,
+      "alpha=0.2,K=1": 0.3880544882989871,
+      "alpha=0.2,K=5": 0.42333216905344045,
+      "alpha=0.2,K=10": 0.4146000698567936,
+      "alpha=0.2,K=20": 0.44289207125392943,
+      "alpha=0.3,K=1": 0.3880544882989871,
+      "alpha=0.3,K=5": 0.42193503318197695,
+      "alpha=0.3,K=10": 0.41529863779252535,
+      "alpha=0.3,K=20": 0.4421935033181977,
+      "alpha=0.4,K=1": 0.3880544882989871,
+      "alpha=0.4,K=5": 0.4198393293747817,
+      "alpha=0.4,K=10": 0.4132029339853301,
+      "alpha=0.4,K=20": 0.4414949353824659,
+      "alpha=0.5,K=1": 0.3880544882989871,
+      "alpha=0.5,K=5": 0.41914076143904994,
+      "alpha=0.5,K=10": 0.41250436604959834,
+      "alpha=0.5,K=20": 0.4432413552217953,
+      "alpha=0.6,K=1": 0.3880544882989871,
+      "alpha=0.6,K=5": 0.4128536500174642,
+      "alpha=0.6,K=10": 0.4083129584352078,
+      "alpha=0.6,K=20": 0.43765281173594134,
+      "alpha=0.7,K=1": 0.3880544882989871,
+      "alpha=0.7,K=5": 0.40761439049947606,
+      "alpha=0.7,K=10": 0.4058679706601467,
+      "alpha=0.7,K=20": 0.4366049598323437,
+      "alpha=0.8,K=1": 0.3880544882989871,
+      "alpha=0.8,K=5": 0.4083129584352078,
+      "alpha=0.8,K=10": 0.4030736989172197,
+      "alpha=0.8,K=20": 0.4310164163464897,
+      "alpha=0.9,K=1": 0.3880544882989871,
+      "alpha=0.9,K=5": 0.3978344393992316,
+      "alpha=0.9,K=10": 0.39154732797764585,
+      "alpha=0.9,K=20": 0.42333216905344045,
+      "alpha=1,K=1": 0.3880544882989871,
+      "alpha=1,K=5": 0.3880544882989871,
+      "alpha=1,K=10": 0.3880544882989871,
+      "alpha=1,K=20": 0.3880544882989871
+    }
+  },
+  "alpha": 0.0,
+  "seen_sample_tau0.1": {
+    "n": 1376,
+    "top1": {
+      "success": 0.42877906976744184,
+      "grounding_acc": 0.6002906976744186,
+      "errors": {
+        "no_candidate": 0,
+        "grounding": 488,
+        "geometry": 298,
+        "unknown_no_gt_mask": 0
+      }
+    },
+    "K=1": {
+      "oracle": 0.42877906976744184,
+      "reranked": {
+        "success": 0.42877906976744184,
+        "grounding_acc": 0.6002906976744186,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 488,
+          "geometry": 298,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.42877906976744184,
+        "grounding_acc": 0.6002906976744186,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 488,
+          "geometry": 298,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=5": {
+      "oracle": 0.5370639534883721,
+      "reranked": {
+        "success": 0.4571220930232558,
+        "grounding_acc": 0.6104651162790697,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 468,
+          "geometry": 279,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.4571220930232558,
+        "grounding_acc": 0.6104651162790697,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 468,
+          "geometry": 279,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=10": {
+      "oracle": 0.5886627906976745,
+      "reranked": {
+        "success": 0.4643895348837209,
+        "grounding_acc": 0.6111918604651163,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 465,
+          "geometry": 272,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.4643895348837209,
+        "grounding_acc": 0.6111918604651163,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 465,
+          "geometry": 272,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=20": {
+      "oracle": 0.6388081395348837,
+      "reranked": {
+        "success": 0.47238372093023256,
+        "grounding_acc": 0.6010174418604651,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 472,
+          "geometry": 254,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.47238372093023256,
+        "grounding_acc": 0.6010174418604651,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 472,
+          "geometry": 254,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    }
+  },
+  "unseen_sample_tau0.1": {
+    "n": 601,
+    "top1": {
+      "success": 0.2545757071547421,
+      "grounding_acc": 0.4908485856905158,
+      "errors": {
+        "no_candidate": 0,
+        "grounding": 293,
+        "geometry": 155,
+        "unknown_no_gt_mask": 0
+      }
+    },
+    "K=1": {
+      "oracle": 0.2545757071547421,
+      "reranked": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.4908485856905158,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 293,
+          "geometry": 155,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.4908485856905158,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 293,
+          "geometry": 155,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=5": {
+      "oracle": 0.2928452579034942,
+      "reranked": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.49916805324459235,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 288,
+          "geometry": 160,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2545757071547421,
+        "grounding_acc": 0.49916805324459235,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 288,
+          "geometry": 160,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=10": {
+      "oracle": 0.3261231281198003,
+      "reranked": {
+        "success": 0.2562396006655574,
+        "grounding_acc": 0.5058236272878536,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 283,
+          "geometry": 164,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2562396006655574,
+        "grounding_acc": 0.5058236272878536,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 283,
+          "geometry": 164,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    },
+    "K=20": {
+      "oracle": 0.36938435940099834,
+      "reranked": {
+        "success": 0.2562396006655574,
+        "grounding_acc": 0.5158069883527454,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 276,
+          "geometry": 171,
+          "unknown_no_gt_mask": 0
+        }
+      },
+      "scorer_only": {
+        "success": 0.2562396006655574,
+        "grounding_acc": 0.5158069883527454,
+        "errors": {
+          "no_candidate": 0,
+          "grounding": 276,
+          "geometry": 171,
+          "unknown_no_gt_mask": 0
+        }
+      }
+    }
+  },
+  "H": {
+    "top1": 0.31947310119302513,
+    "K=1": {
+      "reranked": 0.31947310119302513,
+      "scorer_only": 0.31947310119302513,
+      "oracle": 0.31947310119302513
+    },
+    "K=5": {
+      "reranked": 0.3270269489616129,
+      "scorer_only": 0.3270269489616129,
+      "oracle": 0.3790212948864589
+    },
+    "K=10": {
+      "reranked": 0.33025306111490527,
+      "scorer_only": 0.33025306111490527,
+      "oracle": 0.41971907691412896
+    },
+    "K=20": {
+      "reranked": 0.33225237903988686,
+      "scorer_only": 0.33225237903988686,
+      "oracle": 0.4680965899890974
+    }
+  },
+  "main": {
+    "K": 20,
+    "alpha": 0.0,
+    "seen": 0.47238372093023256,
+    "unseen": 0.2562396006655574,
+    "H": 0.33225237903988686
+  }
+}

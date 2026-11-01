@@ -1,0 +1,25 @@
+{
+  "network": "logs/261031_2332_gtv_a3s_s123/best_model.pt",
+  "source": "Transcribed from the evaluate_top1.py log of a second machine with the same data and splits (the checkpoint was not copied here). Same fields as the other top1_*.json files, alpha = mask-gating exponent.",
+  "seen": {
+    "n": 1376,
+    "mask_iou": 0.3611361103318176,
+    "alphas": {
+      "0.0": {"success": 0.4542, "correct": 625, "grounding_acc": 0.46075581395348836, "errors": {"no_peak": 101, "grounding": 485, "geometry": 165}},
+      "0.5": {"success": 0.4535, "correct": 624, "grounding_acc": 0.5138081395348837, "errors": {"no_peak": 100, "grounding": 475, "geometry": 177}},
+      "1.0": {"success": 0.4542, "correct": 625, "grounding_acc": 0.5167151162790697, "errors": {"no_peak": 100, "grounding": 474, "geometry": 177}},
+      "2.0": {"success": 0.4542, "correct": 625, "grounding_acc": 0.5188953488372093, "errors": {"no_peak": 99, "grounding": 475, "geometry": 177}}
+    }
+  },
+  "unseen": {
+    "n": 601,
+    "mask_iou": 0.28074687720430747,
+    "alphas": {
+      "0.0": {"success": 0.3411, "correct": 205, "grounding_acc": 0.46256239600665555, "errors": {"no_peak": 56, "grounding": 246, "geometry": 94}},
+      "0.5": {"success": 0.3344, "correct": 201, "grounding_acc": 0.4559068219633943, "errors": {"no_peak": 56, "grounding": 252, "geometry": 92}},
+      "1.0": {"success": 0.3278, "correct": 197, "grounding_acc": 0.4492512479201331, "errors": {"no_peak": 55, "grounding": 257, "geometry": 92}},
+      "2.0": {"success": 0.3178, "correct": 191, "grounding_acc": 0.4425956738768719, "errors": {"no_peak": 55, "grounding": 261, "geometry": 94}}
+    }
+  },
+  "H": {"0.0": 0.38961236420583695, "0.5": 0.3849723756906077, "1.0": 0.3807811076903094, "2.0": 0.3739578128597631}
+}

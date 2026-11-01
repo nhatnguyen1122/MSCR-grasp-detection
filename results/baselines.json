@@ -1,0 +1,182 @@
+{
+  "logs/261030_2008_lgrconvnet3_original/epoch_25_iou_0.14": {
+    "seen": {
+      "n": 1376,
+      "has_mask_head": false,
+      "net_ms_per_image": 7.303880051124928,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.27834302325581395,
+          "correct": 383,
+          "failed": 993,
+          "grounding_acc": 0.2928779069767442,
+          "errors": {
+            "no_peak": 140,
+            "grounding": 716,
+            "geometry": 137,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "unseen": {
+      "n": 601,
+      "has_mask_head": false,
+      "net_ms_per_image": 7.000105948297434,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.2778702163061564,
+          "correct": 167,
+          "failed": 434,
+          "grounding_acc": 0.34442595673876875,
+          "errors": {
+            "no_peak": 28,
+            "grounding": 330,
+            "geometry": 76,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "H": {
+      "0.0": 0.2781064188271101
+    }
+  },
+  "logs/261031_2005_lgrconvnet3_fixed/epoch_33_iou_0.35": {
+    "seen": {
+      "n": 1376,
+      "has_mask_head": false,
+      "net_ms_per_image": 6.883986640808194,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.2914244186046512,
+          "correct": 401,
+          "failed": 975,
+          "grounding_acc": 0.28125,
+          "errors": {
+            "no_peak": 121,
+            "grounding": 722,
+            "geometry": 132,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "unseen": {
+      "n": 601,
+      "has_mask_head": false,
+      "net_ms_per_image": 6.830531229790356,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.3876871880199667,
+          "correct": 233,
+          "failed": 368,
+          "grounding_acc": 0.44093178036605657,
+          "errors": {
+            "no_peak": 26,
+            "grounding": 277,
+            "geometry": 65,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "H": {
+      "0.0": 0.33273327172463407
+    }
+  },
+  "logs/261030_2344_lggcnn_original/epoch_36_iou_0.06": {
+    "seen": {
+      "n": 1376,
+      "has_mask_head": false,
+      "net_ms_per_image": 5.0094616274501,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.15261627906976744,
+          "correct": 210,
+          "failed": 1166,
+          "grounding_acc": 0.13953488372093023,
+          "errors": {
+            "no_peak": 530,
+            "grounding": 568,
+            "geometry": 68,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "unseen": {
+      "n": 601,
+      "has_mask_head": false,
+      "net_ms_per_image": 4.949541536226447,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.16971713810316139,
+          "correct": 102,
+          "failed": 499,
+          "grounding_acc": 0.24292845257903495,
+          "errors": {
+            "no_peak": 84,
+            "grounding": 328,
+            "geometry": 87,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "H": {
+      "0.0": 0.1607130798838544
+    }
+  },
+  "logs/261031_2006_lggcnn_fixed/epoch_17_iou_0.32": {
+    "seen": {
+      "n": 1376,
+      "has_mask_head": false,
+      "net_ms_per_image": 4.996925072614537,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.25726744186046513,
+          "correct": 354,
+          "failed": 1022,
+          "grounding_acc": 0.24854651162790697,
+          "errors": {
+            "no_peak": 205,
+            "grounding": 720,
+            "geometry": 97,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "unseen": {
+      "n": 601,
+      "has_mask_head": false,
+      "net_ms_per_image": 5.014106556897156,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.2628951747088186,
+          "correct": 158,
+          "failed": 443,
+          "grounding_acc": 0.3261231281198003,
+          "errors": {
+            "no_peak": 36,
+            "grounding": 335,
+            "geometry": 72,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "H": {
+      "0.0": 0.26005086455800375
+    }
+  }
+}

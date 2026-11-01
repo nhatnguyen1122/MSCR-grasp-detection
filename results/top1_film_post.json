@@ -1,0 +1,167 @@
+{
+  "logs/261101_0044_gtv_a2_s123/best_model.pt": {
+    "seen": {
+      "n": 1376,
+      "has_mask_head": false,
+      "net_ms_per_image": 7.357729209023852,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.21002906976744187,
+          "correct": 289,
+          "failed": 1087,
+          "grounding_acc": 0.2565406976744186,
+          "errors": {
+            "no_peak": 468,
+            "grounding": 488,
+            "geometry": 131,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "unseen": {
+      "n": 601,
+      "has_mask_head": false,
+      "net_ms_per_image": 7.0818109242570975,
+      "mask_iou": null,
+      "alphas": {
+        "0.0": {
+          "success": 0.23960066555740434,
+          "correct": 144,
+          "failed": 457,
+          "grounding_acc": 0.3860232945091514,
+          "errors": {
+            "no_peak": 126,
+            "grounding": 234,
+            "geometry": 97,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "H": {
+      "0.0": 0.22384242388384035
+    }
+  },
+  "logs/261101_0119_gtv_a3_s123/best_model.pt": {
+    "seen": {
+      "n": 1376,
+      "has_mask_head": true,
+      "net_ms_per_image": 7.433463667714318,
+      "mask_iou": 0.3720713717291125,
+      "alphas": {
+        "0.0": {
+          "success": 0.4004360465116279,
+          "correct": 551,
+          "failed": 825,
+          "grounding_acc": 0.4745639534883721,
+          "errors": {
+            "no_peak": 154,
+            "grounding": 438,
+            "geometry": 233,
+            "unknown_no_gt_mask": 0
+          }
+        },
+        "0.5": {
+          "success": 0.40261627906976744,
+          "correct": 554,
+          "failed": 822,
+          "grounding_acc": 0.5290697674418605,
+          "errors": {
+            "no_peak": 157,
+            "grounding": 421,
+            "geometry": 244,
+            "unknown_no_gt_mask": 0
+          }
+        },
+        "1.0": {
+          "success": 0.40261627906976744,
+          "correct": 554,
+          "failed": 822,
+          "grounding_acc": 0.528343023255814,
+          "errors": {
+            "no_peak": 157,
+            "grounding": 420,
+            "geometry": 245,
+            "unknown_no_gt_mask": 0
+          }
+        },
+        "2.0": {
+          "success": 0.3953488372093023,
+          "correct": 544,
+          "failed": 832,
+          "grounding_acc": 0.5305232558139535,
+          "errors": {
+            "no_peak": 158,
+            "grounding": 426,
+            "geometry": 248,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "unseen": {
+      "n": 601,
+      "has_mask_head": true,
+      "net_ms_per_image": 7.349406621618795,
+      "mask_iou": 0.28635820877209894,
+      "alphas": {
+        "0.0": {
+          "success": 0.24792013311148087,
+          "correct": 149,
+          "failed": 452,
+          "grounding_acc": 0.37603993344425957,
+          "errors": {
+            "no_peak": 119,
+            "grounding": 236,
+            "geometry": 97,
+            "unknown_no_gt_mask": 0
+          }
+        },
+        "0.5": {
+          "success": 0.259567387687188,
+          "correct": 156,
+          "failed": 445,
+          "grounding_acc": 0.39767054908485855,
+          "errors": {
+            "no_peak": 120,
+            "grounding": 229,
+            "geometry": 96,
+            "unknown_no_gt_mask": 0
+          }
+        },
+        "1.0": {
+          "success": 0.2545757071547421,
+          "correct": 153,
+          "failed": 448,
+          "grounding_acc": 0.39767054908485855,
+          "errors": {
+            "no_peak": 120,
+            "grounding": 229,
+            "geometry": 99,
+            "unknown_no_gt_mask": 0
+          }
+        },
+        "2.0": {
+          "success": 0.2545757071547421,
+          "correct": 153,
+          "failed": 448,
+          "grounding_acc": 0.39933444259567386,
+          "errors": {
+            "no_peak": 119,
+            "grounding": 229,
+            "geometry": 100,
+            "unknown_no_gt_mask": 0
+          }
+        }
+      }
+    },
+    "H": {
+      "0.0": 0.30623956730545066,
+      "0.5": 0.31564069319406146,
+      "1.0": 0.3119220139765439,
+      "2.0": 0.3097165991902834
+    }
+  }
+}
